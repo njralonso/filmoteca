@@ -13,10 +13,12 @@
     <div id="masterLayout" class="master-layout bg-red-100 h-[100dvh] flex flex-col">
         <div>
             <x-navbar/>
-            <x-searchbar/>
         </div>
-        <div class="bg-blue-100 flex-1 mx-10">
-            <x-film-card/>
+        <div class="bg-blue-100 flex flex-col  flex-1 mx-10 ">
+            <x-searchbar/>
+            <div class="flex justify-around mt-4">
+                <x-film-card/>
+            </div>
         </div>
     </div>
 </body>
